@@ -1,7 +1,7 @@
 resource "aws_security_group" "sec1" {
   name        = "sec1"
   description = "Allow SSH"
-  vpc_id      = "vpc-1471ad6e"
+  vpc_id      = "vpc-da3f1bbc"
 
   ingress {
     from_port   = 22
